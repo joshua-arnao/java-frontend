@@ -166,3 +166,11 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+
+
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
+.nx/installation
+
+package-lock.json
