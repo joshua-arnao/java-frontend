@@ -1,0 +1,16 @@
+{
+  "name": "ds-202502-115v.front-end.developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-cibertec:202501-155v-Java17-Frontend-Developer/DS-202502-115V.Front-End.Developer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
