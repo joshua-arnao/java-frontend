@@ -3,5 +3,5 @@
 export const arrowFunction = () => {
   // aqui va mi codigo
 
-  console.log("hola ")
+  console.log("hola from Arrow Function 2")
 }

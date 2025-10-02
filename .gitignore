@@ -14,6 +14,7 @@ out-tsc/
 # Nx cache
 .nx/cache
 .nx/workspace-data
+tmp/
 
 # Angular
 .angular/

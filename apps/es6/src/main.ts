@@ -1,3 +1,5 @@
+import { arrowFunction } from './arrow-function'
+
 // aqui arriba en la cabecera voy importando las referencias
 // uso palabra reservada require yla ruta relativa
 // const main = require("./arrow-function")
@@ -147,3 +149,6 @@ function saludarTodos(...nombres) {
   return saludos;
 }
 console.log("saludando a todos", saludarTodos('miguel', 'ana', 'rocio', 'alfredo'))
+
+
+arrowFunction()

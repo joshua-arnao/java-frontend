@@ -1,7 +1,7 @@
 {
   "name": "es6",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "es6/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/es6/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -11,12 +11,12 @@
       "defaultConfiguration": "production",
       "options": {
         "platform": "node",
-        "outputPath": "dist/es6",
+        "outputPath": "dist/apps/es6",
         "format": ["cjs"],
         "bundle": false,
-        "main": "es6/src/main.ts",
-        "tsConfig": "es6/tsconfig.app.json",
-        "assets": ["es6/src/assets"],
+        "main": "apps/es6/src/main.ts",
+        "tsConfig": "apps/es6/tsconfig.app.json",
+        "assets": ["apps/es6/src/assets"],
         "generatePackageJson": true,
         "esbuildOptions": {
           "sourcemap": true,
@@ -42,8 +42,8 @@
       "cache": true,
       "executor": "@nx/js:prune-lockfile",
       "outputs": [
-        "{workspaceRoot}/dist/es6/package.json",
-        "{workspaceRoot}/dist/es6/package-lock.json"
+        "{workspaceRoot}/dist/apps/es6/package.json",
+        "{workspaceRoot}/dist/apps/es6/package-lock.json"
       ],
       "options": {
         "buildTarget": "build"
@@ -52,7 +52,7 @@
     "copy-workspace-modules": {
       "dependsOn": ["build"],
       "cache": true,
-      "outputs": ["{workspaceRoot}/dist/es6/workspace_modules"],
+      "outputs": ["{workspaceRoot}/dist/apps/es6/workspace_modules"],
       "executor": "@nx/js:copy-workspace-modules",
       "options": {
         "buildTarget": "build"
