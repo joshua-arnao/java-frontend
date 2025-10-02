@@ -86,3 +86,37 @@ console.log(typeof id) // aqui sale {number}
 // - Numero a String (String)
 // - Booleanos (Boolean)
 // - parseo de enteros y  flotantes (parseInt)
+
+console.log("\n::OPERADOR TERNARIO   \n");
+
+if (false) {
+  console.log('es verdad')
+} else {
+  console.log('es falso')
+}
+
+console.log("\n::OPERADOR TERNARIO en accion   \n");
+
+true ? console.log("es verdad") : console.log("es falso");
+
+
+console.log("\n::Templates Literals \n")
+
+// sirven para contruir plantillas basado en strings, sin necesidad de concadenar strings y variables
+
+// sin Templates Literals
+const nameLiteral = "Miguel";
+const mensajeSinTL = "Hola" + " " + "Soy un texto" + " " + " SIn template Literals y mi nombre es" + nameLiteral;
+console.log(mensajeSinTL)
+
+// para templates literals se usan backticks -> `
+// Soporta MULTILINEA
+console.log("\n\n::multilinea")
+const mensajeConTL = `Hola Soy Un texto sin templates Literals y mi nombre es ${nameLiteral}
+
+aqui el contenido es multilinea y mi nombre es ->  ${nameLiteral}
+aqui tambien ${nameLiteral} se puede construir templates multilinea
+`;
+console.log(mensajeConTL);
+
+console.log("\n\n::multilinea")
