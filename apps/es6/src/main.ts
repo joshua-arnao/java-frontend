@@ -1,5 +1,7 @@
 import { arrowFunction } from './arrow-function'
 
+import { utils } from '@cibertec/frontend-utils'
+
 // aqui arriba en la cabecera voy importando las referencias
 // uso palabra reservada require yla ruta relativa
 // const main = require("./arrow-function")
@@ -152,3 +154,5 @@ console.log("saludando a todos", saludarTodos('miguel', 'ana', 'rocio', 'alfredo
 
 
 arrowFunction()
+
+console.log(utils());
