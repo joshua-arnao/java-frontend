@@ -15,3 +15,18 @@ git add {*}
 # ejemplo, aqui agrego todos los archivos
 git add .
 ```
+
+## generar un paquete de cambios (commit)
+
+```sh
+# commit es el comando para generarme el paquete de cambios
+# -m me indica que voy a agregar un mensaje
+git commit -m "agregando cambios para soportar nodejs"
+```
+
+## Enviar estos archivos al repositorio remoto (github.com)
+
+```sh
+# comando push envia tus commits al repositorio remoto
+git push
+```
