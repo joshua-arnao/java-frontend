@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "name": "Miguel Gonzales",
+      "role": "admin",
+      "active": false,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Ana García",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": "3",
+      "name": "Carlos López",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": "5",
+      "name": "Juan Pérez",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": "2dc0",
+      "name": "Alfredo Mendiola",
+      "role": "user",
+      "active": true
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "userId": 1,
+      "title": "Introduccion a JSON Server",
+      "content": "JSON Server es una herramienta potente...",
+      "published": true,
+      "tags": [
+        "tutorial",
+        "api",
+        "javascript"
+      ]
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "title": "Trabajando con APIs REST",
+      "content": "Las APIs REST son fundamentales en el desarrollo web moderno...",
+      "published": true,
+      "tags": [
+        "api",
+        "rest",
+        "backend"
+      ]
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "title": "JavaScript ES6: Nuevas Características",
+      "content": "ES6 introdujo muchas mejoras al lenguaje JavaScript...",
+      "published": false,
+      "tags": [
+        "javascript",
+        "es6",
+        "frontend"
+      ]
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "title": "Desarrollo de Aplicaciones Web",
+      "content": "El desarrollo web ha evolucionado significativamente...",
+      "published": true,
+      "tags": [
+        "web",
+        "development",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "title": "Gestión de Estado en Angular",
+      "content": "Angular ofrece varias formas de gestionar el estado...",
+      "published": true,
+      "tags": [
+        "angular",
+        "state",
+        "frontend"
+      ]
+    }
+  ]
+}
