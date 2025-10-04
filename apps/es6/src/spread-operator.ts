@@ -56,3 +56,4 @@ export function spreadExample04() {
   const listaConSpreadOperator = [...listaApi1, ...listaApi2, ...listaApi3];
   console.log('Lista unificada de nombres en una variable -> ', listaConSpreadOperator)
 }
+//
