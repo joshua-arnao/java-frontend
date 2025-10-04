@@ -1,0 +1,33 @@
+{
+  "name": "intro-angular",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "intro",
+  "sourceRoot": "apps/intro-angular/src",
+  "tags": [],
+  "targets": {
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "intro-angular:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "serve-static": {
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "intro-angular:build",
+        "port": 4205,
+        "spa": true
+      }
+    },
+    "serve": {
+      "options": {
+        "port": 4205
+      }
+    }
+  }
+}

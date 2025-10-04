@@ -2,6 +2,8 @@ import { arrowFunction } from './arrow-function'
 
 import { utils } from '@cibertec/frontend-utils'
 
+import { spreadExample, spreadExample02, spreadExample03, spreadExample04 } from './spread-operator'
+
 // aqui arriba en la cabecera voy importando las referencias
 // uso palabra reservada require yla ruta relativa
 // const main = require("./arrow-function")
@@ -156,3 +158,10 @@ console.log("saludando a todos", saludarTodos('miguel', 'ana', 'rocio', 'alfredo
 arrowFunction()
 
 console.log(utils());
+
+console.log("\n\n\n:: SPREAD OPERATOR\n\n\n")
+
+spreadExample();
+spreadExample02();
+spreadExample03();
+spreadExample04();
