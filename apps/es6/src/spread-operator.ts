@@ -57,3 +57,10 @@ export function spreadExample04() {
   console.log('Lista unificada de nombres en una variable -> ', listaConSpreadOperator)
 }
 //
+
+export function spreadOperatorExamples() {
+  spreadExample();
+  spreadExample02();
+  spreadExample03();
+  spreadExample04();
+}

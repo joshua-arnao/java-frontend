@@ -1,5 +1,3 @@
-import { resolve } from "path";
-
 export function promisesExample01() {
   // comparemos eventos sincronos y asincronos
 
@@ -53,3 +51,9 @@ new Promise((resolve, reject) => {
     reject(new Error("algo salio mal"))
   }
 });
+
+
+export function promiseExamples() {
+  promisesExample01();
+  promiseExample02();
+}
