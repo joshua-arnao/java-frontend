@@ -1,6 +1,4 @@
-
-
-export function spreadExample() {
+export function example01() {
   const numerosOriginales = [1, 2, 3]; // numeros originales
   console.log("numeros originales", numerosOriginales);
 
@@ -8,7 +6,7 @@ export function spreadExample() {
   console.log('elementos expandidos con spread', ...numerosOriginales); // aqui expando
 }
 
-export function spreadExample02() {
+export function example02() {
   // en este ejemplo podemos usar Spread para obtener el MAXIMO de una lista de numeros
   // temperaturas registradas
   const temperaturas = [18, 20, 25, 28, 30];
@@ -22,7 +20,7 @@ export function spreadExample02() {
   console.log('Math.max usando Spread Operator', Math.max(...temperaturas)); // los 3 puntos indican uso del spread operator
 }
 
-export function spreadExample03() {
+export function example03() {
   console.log("\n\nSPREAD CON STRINGS\n\n");
   const palabra = "HOLA";
   console.log("Palabra original", palabra);
@@ -34,7 +32,7 @@ export function spreadExample03() {
   // Output: ['H', 'O', 'L', 'A'];
 }
 
-export function spreadExample04() {
+export function example04() {
   // en este ejemplo tendré varias listas de nombres y mi misión será unificarlos
 
   console.log("Unificacion de nombres")
@@ -46,6 +44,7 @@ export function spreadExample04() {
   // opcion 1: se puede usar concat
   let listaUnificada1 = listaApi1.concat(listaApi2)
   listaUnificada1 = listaApi1.concat(listaApi3); // aqui ya estaria la lista unificada...
+  console.log('lista unificada 1', listaUnificada1);
 
   // opcion no viable
   const listaNoViable = [listaApi1, listaApi2, listaApi3] // NOOOOOOO // esto genera una LISTA ANIDADA
@@ -56,11 +55,5 @@ export function spreadExample04() {
   const listaConSpreadOperator = [...listaApi1, ...listaApi2, ...listaApi3];
   console.log('Lista unificada de nombres en una variable -> ', listaConSpreadOperator)
 }
-//
 
-export function spreadOperatorExamples() {
-  spreadExample();
-  spreadExample02();
-  spreadExample03();
-  spreadExample04();
-}
+export default { example01, example02, example03, example04 }
