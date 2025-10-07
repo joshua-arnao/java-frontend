@@ -134,6 +134,12 @@ ng generate component first-component --inline-style --prefix work --style scss 
 
 ## TypeScript
 
+- Interfaces
+- Funciones
+- Tipado de valores primitivos
+- Parametros Opcionales
+- Clases y Decoradores
+
 ## Glosario
 
 - CLI -> Command Language Interface
