@@ -127,11 +127,12 @@ ng new angular-first --routing --dry-run
 
 # ejecutar el proyecto
 ng serve --open --verbose --host 0.0.0.0
+
+# Crear un nuevo componente
+ng generate component first-component --inline-style --prefix work --style scss --dry-run
 ```
 
 ## TypeScript
-
-
 
 ## Glosario
 
