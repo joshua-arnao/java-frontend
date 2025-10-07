@@ -114,3 +114,25 @@ this.users =[...];
 | Opinión       | Muy opinionado     | Flexible (tu decides)  | Balanceada           |
 | Tamano Bundle | ~500KB             | ~100KB + librerias     | ~80KB (core)         |
 | Ideal para:   | Empresas grandes   | Flexible / Ecosistema  | Proyectos medianos   |
+
+## Primeros pasos
+
+```bash
+npm install -g @angular/cli
+# validar la instalación
+ng --version
+
+# crear un nuevo proyecto
+ng new angular-first --routing --dry-run
+
+# ejecutar el proyecto
+ng serve --open --verbose --host 0.0.0.0
+```
+
+## TypeScript
+
+
+
+## Glosario
+
+- CLI -> Command Language Interface
