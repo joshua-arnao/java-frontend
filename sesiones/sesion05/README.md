@@ -40,6 +40,59 @@ class UserCardComponent{
 }
 ```
 
+genera un componente sencillo en un proyecto de angular, ojo deberia ser standalone false
+
+```bash
+# ojo, posicionate sobre la carpeta del proyecto angular
+
+ng generate component card --standalone=false
+ng g c card --standalone=false
+
+# levantar el proyecto
+ng serve
+```
+
+## Repaso angular
+
+```bash
+ng new NOMBRE_DEL_PROYECTO
+# SASS
+# y/N
+# y/N
+# IA desactivado
+
+# posicionate sobre la carpeta
+cd NOMBRE_DEL_PROYECTO
+
+# ejecutar el proyecto
+ng serve
+# o usar 
+npm start
+#  en npm start usa en ANGULAR de tu PROYECTO
+
+# naveguen sobre http://localhost:4200
+
+# crear componentes
+ng generate component card
+
+# CREATE src/app/card/card.scss (0 bytes)
+# CREATE src/app/card/card.spec.ts (514 bytes)
+# CREATE src/app/card/card.ts (178 bytes)
+# CREATE src/app/card/card.html (19 bytes)
+
+ng generate component user-card
+# CREATE src/app/user-card/user-card.scss (0 bytes)
+# CREATE src/app/user-card/user-card.spec.ts (543 bytes)
+# CREATE src/app/user-card/user-card.ts (197 bytes)
+# CREATE src/app/user-card/user-card.html (24 bytes)
+
+ng g c banner
+# CREATE src/app/banner/banner.scss (0 bytes)
+# CREATE src/app/banner/banner.spec.ts (528 bytes)
+# CREATE src/app/banner/banner.ts (186 bytes)
+# CREATE src/app/banner/banner.html (21 bytes)
+```
+
 ## Angular Modules
 
 ## Angular Standalone Component
