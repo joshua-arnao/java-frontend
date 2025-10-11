@@ -1,0 +1,20 @@
+
+<!-- {{ tareas  }} -->
+  <!-- .length es una propiedad para validar cuantos -->
+  <!-- elementos tiene el array  -->
+<div *ngIf="tareas.length > 0; else noHayTareas">
+
+  <h2>Lista de tareas</h2>
+  <!-- Unordered List -->
+  <ul>
+    <!-- List Item -->
+    <!-- el en item itero la lista -->
+    <li *ngFor="let item of tareas"> {{ item }}   </li>
+  </ul>
+
+</div>
+
+<!-- noHayTareas es una plantilla -->
+ <ng-template #noHayTareas>
+  <p>No hay tareas pendientes</p>
+ </ng-template>

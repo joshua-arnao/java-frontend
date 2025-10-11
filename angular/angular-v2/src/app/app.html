@@ -1,3 +1,25 @@
-<h1>Pagina principal</h1>
+<app-lista-tareas></app-lista-tareas>
 
-<router-outlet />
+<hr>
+
+<!-- aqui escucho el evento -->
+ <p>mensaje recibido: {{ mensajeNotificacion }} {{ contador }} veces</p>
+<app-boton-alerta (notificacion)="onNotificacion($event)"></app-boton-alerta>
+
+<hr>
+
+<h1>Saludando a:</h1>
+<!-- reutilizacion de componentes -->
+<app-saludo nombre="Carlos" ></app-saludo>
+<app-saludo ></app-saludo>
+<app-saludo nombre="Miguel" ></app-saludo>
+<app-saludo nombre="Alfredo" ></app-saludo>
+
+<hr>
+
+<app-user-profile></app-user-profile>
+
+<hr>
+
+<app-hello-world></app-hello-world>
+

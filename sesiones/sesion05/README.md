@@ -91,6 +91,12 @@ ng g c banner
 # CREATE src/app/banner/banner.spec.ts (528 bytes)
 # CREATE src/app/banner/banner.ts (186 bytes)
 # CREATE src/app/banner/banner.html (21 bytes)
+
+ng generate component hello-world
+# podemos agregar este componente como dependencia
+
+ng generate component user-profile
+# probaremos aqui el perfil de un usuario
 ```
 
 ## Angular Modules
