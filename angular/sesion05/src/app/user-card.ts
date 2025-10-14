@@ -29,7 +29,8 @@ export class UserCard {
     // const name = "William Wallace"
     console.log("clickeado en el boton eliminar")
     // aqui tambien puedo emitir valores complejos, como objetos, arreglos
-    this.deleteRequest.emit(10);
+    // aqui entonces emito el id unico del usuario
+    this.deleteRequest.emit(this.user?.id);
   }
 
 }

@@ -13,9 +13,18 @@
 
 <!-- una sola vez y lo itero -->
  <!-- for -> iteracion -> {para} -->
+
+ <!-- en cada iteración tengo la referencia al elemento, es {user} -->
+<!-- entonces si quiero obtener cualquier valor de un elemento -->
+ <!-- tengo que referenciarlo usando {user.----}       -->
 <app-user-card
+    (click)="selectUser(user)"
     *ngFor="let user of users"
-[isSelected]="true"  [user]="user"  (deleteRequest)="onUserDeleted($event)"    ></app-user-card>
+
+    [isSelected]="  user.id === selectedUserId    "
+
+[user]="user"  (deleteRequest)="onUserDeleted($event)"
+></app-user-card>
 
 
 <hr>
