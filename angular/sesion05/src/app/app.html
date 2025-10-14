@@ -1,3 +1,30 @@
+<!-- aqui usare mis contenedores para mostrar contenido cargando o no -->
+
+<!-- key es el atributo del componente hijo -->
+ <!-- value es el atributo del componente padre(contenedor) -->
+<app-data-presenter  [isLoading]="loading" [data]="userData">
+
+  <!-- aqui dentro de la etiqueta del componente pondré las plantillas -->
+   <!-- loading y success -->
+    <ng-template #loadingTmpl>
+      <!-- aqui iria el cargador -->
+      <div class="spinner"></div>
+      <p>cargando, espere...</p>
+    </ng-template>
+
+    <ng-template #successTmpl let-user let-loadTime="loadTime">
+      <div class="profile-card">
+        <h2>{{ user?.name  }}</h2>
+        <p>Email: {{ user?.email  }}</p>
+        <small>Datos cargados en {{loadTime   }}ms</small>
+      </div>
+    </ng-template>
+
+</app-data-presenter>
+
+
+<hr>
+
 <!-- estoy pasando el atributo mainUser a mi componente user-card -->
  <!-- y user-card recibe el valor en su atributo `user` -->
 

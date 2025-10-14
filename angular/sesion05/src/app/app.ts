@@ -1,17 +1,30 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcome } from './nx-welcome';
 import { User, UserCard } from './user-card';
 import { CommonModule } from '@angular/common';
+import { DataPresenter } from './data-presenter';
 
 @Component({
   // aqui importo los componentes
-  imports: [NxWelcome, RouterModule, UserCard, CommonModule],
+  imports: [NxWelcome, RouterModule, UserCard, CommonModule, DataPresenter],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
-export class App {
+export class App implements OnInit {
+  loading = true;
+  userData: { name: string; email: string } | null = null;
+
+  // el ciclo de vida mas usado es el ngOnInit
+  // se ejecuta al INICIO = INIT
+  ngOnInit(): void {
+    // simular una carga de 4 segundos al inicio de la aplicacion
+    setTimeout(() => {
+      this.userData = { name: "Miguel", email: "miguel@gmail.com" }
+      this.loading = false;
+    }, 4000)
+  }
 
   mainUser: User | null = { name: "Miguel", email: "carlosz@gmail.com", avatarUrl: "https://static.vecteezy.com/system/resources/previews/009/397/835/non_2x/man-avatar-clipart-illustration-free-png.png" };
   // aqui almacenaria todos los usuarios

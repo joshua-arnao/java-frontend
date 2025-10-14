@@ -15,4 +15,15 @@ Carácteristicas de Angular a practicar:
 - Emisor de eventos
 - Event Binding
 
-### Ejemplo de resaltar una tarjeta seleccionada
+### Ejemplo de la implementacion de un cargador
+
+- que se muestre un cargador como apoyo visual para el usuario
+- usar una plantilla reutilizable
+- tener contenido que solo se debe mostrar al terminar la carga
+
+Caracteristicas de Angular
+
+- ng-template
+- if
+- ContentChild
+- Patrón Presenter (datos)

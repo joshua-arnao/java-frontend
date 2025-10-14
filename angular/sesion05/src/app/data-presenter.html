@@ -1,0 +1,18 @@
+<!-- plantilla 1 -->
+
+<!-- para usar un contenido podriamos engloblarlo dentro de un ng-container -->
+
+<!-- ng-container NO GENERA elementos en el HTML -->
+<ng-container *ngIf="isLoading; else content">
+  <!-- puedo indicarle una plantilla de afuera -->
+   <!-- aqui uso la plantilla externa -->
+  <ng-container   *ngTemplateOutlet="loadingTemplate"></ng-container>
+</ng-container>
+
+<!-- plantilla 2 -->
+<ng-template #content>
+  <!-- la plantilla externa cuando se cargue el contenido -->
+  <ng-container
+   *ngTemplateOutlet="successTemplate; context: { $implicit:  data, loadTime: 500   }"
+  ></ng-container>
+ </ng-template>
