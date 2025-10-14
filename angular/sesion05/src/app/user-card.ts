@@ -19,6 +19,8 @@ export class UserCard {
   // puede contener el contrato/interfaz User o un valor nulo
   @Input() user: User | null = null;
 
+  // flag me ayudara a validar si este card ha sido seleccionado
+  @Input() isSelected = false;
   // este atributo va a contener un emisor de eventos
   @Output() deleteRequest = new EventEmitter<any>();
 

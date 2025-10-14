@@ -1,0 +1,21 @@
+.card {
+  border: 2px solid #111111;
+  display: inline-block;
+  margin: 20px;
+}
+
+.selected{
+  border-color: #42a5f2; // borde azul
+}
+
+/* HEADER con peso de 4 */
+h4 {
+  color: #00FF00;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  padding: 0;
+  font-size: 13px;
+  color: blue
+}

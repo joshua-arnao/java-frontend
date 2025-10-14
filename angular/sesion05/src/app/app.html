@@ -2,7 +2,21 @@
  <!-- y user-card recibe el valor en su atributo `user` -->
 
  <!-- aqui puedo escuchar el evento del componente: deleteRequest -->
-<app-user-card  [user]="mainUser"  (deleteRequest)="onUserDeleted($event)"    ></app-user-card>
+<!-- <app-user-card [isSelected]="true"  [user]="mainUser"  (deleteRequest)="onUserDeleted($event)"    ></app-user-card>
+<app-user-card [isSelected]="false" [user]="mainUser"  (deleteRequest)="onUserDeleted($event)"    ></app-user-card>
+<app-user-card [isSelected]="false" [user]="mainUser"  (deleteRequest)="onUserDeleted($event)"    ></app-user-card>
+<app-user-card [isSelected]="true" [user]="mainUser"  (deleteRequest)="onUserDeleted($event)"    ></app-user-card> -->
+
+<!-- corchetes -> binding -->
+<!-- parentesis -> escucha de eventos -->
+
+
+<!-- una sola vez y lo itero -->
+ <!-- for -> iteracion -> {para} -->
+<app-user-card
+    *ngFor="let user of users"
+[isSelected]="true"  [user]="user"  (deleteRequest)="onUserDeleted($event)"    ></app-user-card>
+
 
 <hr>
 
