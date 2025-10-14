@@ -1,2 +1,10 @@
-<app-nx-welcome></app-nx-welcome>
+<!-- estoy pasando el atributo mainUser a mi componente user-card -->
+ <!-- y user-card recibe el valor en su atributo `user` -->
+
+ <!-- aqui puedo escuchar el evento del componente: deleteRequest -->
+<app-user-card  [user]="mainUser"  (deleteRequest)="onUserDeleted($event)"    ></app-user-card>
+
+<hr>
+
+<!-- <app-nx-welcome></app-nx-welcome> -->
 <router-outlet></router-outlet>

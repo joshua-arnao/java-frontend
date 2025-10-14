@@ -1,0 +1,14 @@
+<div *ngIf="user" class="card">
+  <div class="container">
+    <!-- aqui agregamos una imagen -->
+     <!-- key / value = llave / valor -->
+      <!-- alt es el texto alternativo en caso no se cargue la imagen -->
+       <!-- atributo width le dá un ancho especifico al recurso -->
+     <img width="200px" [src]="user?.avatarUrl" alt="Avatar imagen" />
+    <!-- en caso no exista .name puedo usar el simbolo ?  -->
+    <h4><p>{{ user?.name   }}</p></h4>
+    <p>{{ user?.email  }}</p>
+    <button (click)="onDeleteClick()">Eliminar</button>
+  </div>
+</div>
+
