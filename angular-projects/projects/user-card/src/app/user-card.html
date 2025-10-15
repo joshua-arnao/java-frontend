@@ -1,0 +1,24 @@
+<!-- aqui voy a usar ngClass -->
+<!-- permite agregar estilos CSS directamente en la plantilla -->
+<!-- tambien permite referenciar objetos que contengan reglas css -->
+<!-- permite su agregación ----CONDICIONAL---- -->
+
+<!-- si isSelected es `true` entonces el componente -->
+<!-- agrega la clase selected al elemento -->
+<div *ngIf="user" class="card" [ngClass]=" { 'selected': isSelected    }   " >
+  <div class="container">
+    <!-- aqui agregamos una imagen -->
+     <!-- key / value = llave / valor -->
+      <!-- alt es el texto alternativo en caso no se cargue la imagen -->
+       <!-- atributo width le dá un ancho especifico al recurso -->
+
+       <!-- sin corchetes el atributo src(source) es solo un atributo -->
+        <!-- html y solo recibe valores string -->
+     <img width="100px" [src]="user?.avatarUrl" alt="Avatar imagen" />
+    <!-- en caso no exista .name puedo usar el simbolo ?  -->
+    <h4>{{ user?.name   }}</h4>
+    <p>{{ user?.email  }}</p>
+    <button (click)="onDeleteClick()">Eliminar</button>
+  </div>
+</div>
+
