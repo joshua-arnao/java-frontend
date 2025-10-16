@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "foundations": "ng serve --project foundations",
     "user-card": "ng serve --project user-card",
     "data-presenter": "ng serve --project data-presenter",
     "async-data": "ng serve --project async-data",

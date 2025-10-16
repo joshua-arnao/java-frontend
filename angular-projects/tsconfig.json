@@ -53,6 +53,12 @@
     },
     {
       "path": "./projects/async-data/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/foundations/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/foundations/tsconfig.spec.json"
     }
   ]
 }

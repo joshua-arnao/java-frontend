@@ -1,9 +1,43 @@
-# Sesion 01
+# DS-202502-115v.front-end.developer
 
-Roy Surjano
+## Ejecucion
 
-- - 15 anios de experiencia en desarrollo de software
-- 37 anios - edad
+```bash
+# ejercicios es6 y caracteristicas
+npm run es6-features
+npm run api
+
+# proyectos angular
+npm run angular-user-card
+npm run angular-data-presenter
+npm run angular-async-data
+npm run angular-lifecycle
+
+# proyectos react
+```
+
+## Metodologia de trabajo
+
+Evaluacion: Tareas (en cada unidad) + Evaluaciones de clase (Repositorios de Codigo **github.com** + Evaluaciones de teams) + Evaluacion Final
+
+Los siguientes elementos fueron seleccionados basado en el voto de la mayoría
+
+1. **Asistencia**: reporte de teams + responder los quizes de la clase
+2. Examen **final**
+3. Ejecución de la clase basado en **guias de trabajo**.
+
+## Evaluaciones
+
+- Se brindará evaluaciónes sin límite de entrega, depende del alumno realizarlos.
+
+## Didáctica
+
+- Participa, estás en una sesión en VIVO, por lo tanto el plus es que vas a poder interactuar con el profesor y tus companeros
+
+## Sobre el profesor
+
+`Roy Surjano`
+
 - Desarrollo Frontend
 - Java
 - Python
@@ -15,43 +49,3 @@ Roy Surjano
 - AngularJS v1
 - ReactJS
 - Angular v2 v19-20
-
-## Ejecucion de los ejemplos
-
-```bash
-# ejercicios es6 y caracteristicas
-npm run es6-features
-
-# proyectos angular
-
-# proyectos react
-```
-
-## Trabajo
-
-- BCP - Subject Matter Expert - +2 anios
-- BairesDev
-- NTT Data (everis)
-- TCS - Tata Consultancy Services
-- Making Sense
-- Belatrix
-- Globant
-- Financieras: Interbank, Mibanco, BBVA
-- Construccion: Grupo Grana y Montero
-
-## Metodologia de trabajo
-
-- [x] **Asistencia**: reporte de teams + responder los quizes de la clase
-- Evaluacion: Tareas (en cada unidad) + Evaluaciones de clase (Repositorios de Codigo **github.com** + Evaluaciones de teams) + Evaluacion Final
-  1. trabajo final individual aplicando todo lo aprendido
-  2. [x] examen final
-  3. trabajo grupal que evidencia más alla de lo aprendido frontend+java+db+docker+azure, etc
-
-## Evaluaciones
-
-- [x] Dar una tolerancia de 2 clases, Miercoles sale una evaluación -> ultimo día seria el lunes
-- [x] si entregas más alla de ese plazo se descuenta 1 punto por día sobre tu nota obtenida (con justificacion)
-
-## Didáctica
-
-- Participa, estás en una sesión en VIVO, por lo tanto el plus es que vas a poder interactuar con el profesor y tus companeros

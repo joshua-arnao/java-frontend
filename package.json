@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "es6-features": "npm --prefix es6-features start",
+    "ts-features": "npm --prefix ts-features start",
     "api": "npm --prefix api start",
+    "angular-foundations": "npm --prefix angular-projects run foundations",
     "angular-user-card": "npm --prefix angular-projects run user-card",
     "angular-data-presenter": "npm --prefix angular-projects run data-presenter",
     "angular-async-data": "npm --prefix angular-projects run async-data",
