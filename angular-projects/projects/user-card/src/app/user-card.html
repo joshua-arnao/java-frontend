@@ -14,10 +14,10 @@
 
        <!-- sin corchetes el atributo src(source) es solo un atributo -->
         <!-- html y solo recibe valores string -->
-     <img width="100px" [src]="user?.avatarUrl" alt="Avatar imagen" />
+     <img width="100px" [src]="user.avatarUrl" alt="Avatar imagen" />
     <!-- en caso no exista .name puedo usar el simbolo ?  -->
-    <h4>{{ user?.name   }}</h4>
-    <p>{{ user?.email  }}</p>
+    <h4>{{ user.name   }}</h4>
+    <p>{{ user.email  }}</p>
     <button (click)="onDeleteClick()">Eliminar</button>
   </div>
 </div>

@@ -1,13 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
 import { User, UserCard } from './user-card';
 import { CommonModule } from '@angular/common';
-import { DataPresenter } from '../../../data-presenter/src/app/data-presenter';
 
 @Component({
   // aqui importo los componentes
-  imports: [NxWelcome, RouterModule, UserCard, CommonModule, DataPresenter],
+  imports: [RouterModule, UserCard, CommonModule],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',

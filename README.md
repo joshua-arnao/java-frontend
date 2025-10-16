@@ -2,7 +2,7 @@
 
 Roy Surjano
 
-- + 15 anios de experiencia en desarrollo de software
+- - 15 anios de experiencia en desarrollo de software
 - 37 anios - edad
 - Desarrollo Frontend
 - Java
@@ -15,6 +15,17 @@ Roy Surjano
 - AngularJS v1
 - ReactJS
 - Angular v2 v19-20
+
+## Ejecucion de los ejemplos
+
+```bash
+# ejercicios es6 y caracteristicas
+npm run es6-features
+
+# proyectos angular
+
+# proyectos react
+```
 
 ## Trabajo
 

@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "user-card": "ng serve --project user-card",
+    "data-presenter": "ng serve --project data-presenter",
+    "async-data": "ng serve --project async-data",
+    "lifecycle": "ng serve --project lifecycle"
   },
   "prettier": {
     "printWidth": 100,

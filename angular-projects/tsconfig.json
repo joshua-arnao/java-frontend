@@ -41,6 +41,18 @@
     },
     {
       "path": "./projects/data-presenter/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/lifecycle/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/lifecycle/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/async-data/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/async-data/tsconfig.spec.json"
     }
   ]
 }
