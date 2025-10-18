@@ -13,6 +13,7 @@
     "angular-data-presenter": "npm --prefix angular-projects run data-presenter",
     "angular-async-data": "npm --prefix angular-projects run async-data",
     "angular-template-driven": "npm --prefix angular-projects run template-driven",
+    "angular-reactive-forms": "npm --prefix angular-projects run reactive-forms",
     "angular-lifecycle": "npm --prefix angular-projects run lifecycle"
   },
   "repository": {

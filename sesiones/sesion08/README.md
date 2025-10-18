@@ -74,4 +74,13 @@ para ejecutar los ejemplos realice:
 npm run angular-template-driven
 ```
 
-## 
+## Formularios Reactivos
+
+Un formulario reactivo en angular es principalmente un componente usando en la misma clase algunos de los elementos: `FormGroup`, `FormControl` o `FormBuild`
+Esta característica es ideal para formularios complejos, dinamicos y con validaciones avanzadas, ya que ofrece control total desde el código.
+
+para ejecutar estos ejemplos realizar:
+
+```bash
+npm run angular-reactive-forms
+```

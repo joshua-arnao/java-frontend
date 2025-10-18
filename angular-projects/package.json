@@ -12,6 +12,7 @@
     "data-presenter": "ng serve --project data-presenter",
     "async-data": "ng serve --project async-data",
     "template-driven": "ng serve --project template-driven",
+    "reactive-forms": "ng serve --project reactive-forms",
     "lifecycle": "ng serve --project lifecycle"
   },
   "prettier": {

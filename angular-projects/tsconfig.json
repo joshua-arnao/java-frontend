@@ -65,6 +65,12 @@
     },
     {
       "path": "./projects/template-driven/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/reactive-forms/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/reactive-forms/tsconfig.spec.json"
     }
   ]
 }
