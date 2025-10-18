@@ -12,6 +12,7 @@
     "angular-user-card": "npm --prefix angular-projects run user-card",
     "angular-data-presenter": "npm --prefix angular-projects run data-presenter",
     "angular-async-data": "npm --prefix angular-projects run async-data",
+    "angular-template-driven": "npm --prefix angular-projects run template-driven",
     "angular-lifecycle": "npm --prefix angular-projects run lifecycle"
   },
   "repository": {
