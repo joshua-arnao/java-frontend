@@ -67,3 +67,11 @@ nombre = '';
 edad = 20;
 suscrito = false;
 ```
+
+para ejecutar los ejemplos realice:
+
+```bash
+npm run angular-template-driven
+```
+
+## 

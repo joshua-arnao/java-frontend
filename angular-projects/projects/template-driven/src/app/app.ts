@@ -10,6 +10,28 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.scss'
 })
 export class App {
+
+  registro = { nombre: "", email: "", password: "" }
+  formularioEnviado = "NO"
+  mensaje_form = ""
+  registrar() {
+    this.formularioEnviado = "SI"
+    this.mensaje_form = "Registro exitoso para" + this.registro.nombre + "!!"
+  }
+
+
+
+
+
+
+
+
+
+
+  // aqui almaceno los datos en forma de propiedades
+  nombre_ejercicio01 = ""
+  email_ejercicio01 = ""
+
   // agrego las propiedades
   nombre = "Alfredo"
   edad = 20

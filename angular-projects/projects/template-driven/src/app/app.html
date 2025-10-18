@@ -1,5 +1,45 @@
 <h2>Template driven forms</h2>
 
+<h4>Caso de uso real: formulario de registro basico</h4>
+
+<p>se requiere un formulario de registro que contenga nombre, email, password,
+boton de registrar, deshabilitar y tambien validar la contrasena, finalmente mostrar un mensaje
+alterminar de enviar el formulario</p>
+
+<form #f="ngForm" (ngSubmit)="registrar()">
+  <input  type="text" name="nombre" [(ngModel)]="registro.nombre" required placeholder="Ingrese nombre" />
+  <input  type="email" name="email" [(ngModel)]="registro.email" required placeholder="Ingrese email" />
+  <input   name="password" type="password" [(ngModel)]="registro.password" required minlength="6" placeholder="Contrasena" />
+
+  <button type="submit" [disabled]="f.invalid">Registrarse</button>
+</form>
+<!-- <p>formulario enviado? {{formularioEnviado}}</p> -->
+ <p *ngIf="mensaje_form">{{ mensaje_form}}</p>
+
+
+
+<hr>
+
+<p>ejercicio: Mostrar resumen de datos ingresados: nombre / email</p>
+
+<input type="text" [(ngModel)]="nombre_ejercicio01" required="required" placeholder="Escriba el nombre..."  /> <br/>
+<input type="email"  [(ngModel)]="email_ejercicio01" required="required" placeholder="Escriba el email..."  />
+
+<h4>Datos ingresados:</h4>
+<p>nombre: {{nombre_ejercicio01 }}</p>
+<p>email: {{email_ejercicio01 }}</p>
+
+
+
+
+
+
+
+
+
+
+<hr>
+
 <p>Formulario simple de contacto</p>
 
 <!-- - nombre
