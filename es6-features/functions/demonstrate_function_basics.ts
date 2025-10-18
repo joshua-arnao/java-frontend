@@ -12,4 +12,4 @@ function saludar(nombre) {
 }
 // si yo guardo no aparece el nombre y hola.... por que la funcion no ha sido invocada
 saludar('Miguel'); // aun no se muestra :(
-console.log(saludar('Alfredo')) // aqui uso console.log e invoco a la funcion
+console.log(saludar('Miguel')) // aqui uso console.log e invoco a la funcion
