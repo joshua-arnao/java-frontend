@@ -1,12 +1,22 @@
+import { CommonModule } from '@angular/common';
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+// import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('template-driven');
+  // agrego las propiedades
+  nombre = "Alfredo"
+  edad = 20
+
+  suscrito = true;
+  genero = "M"
+  pais = ""
+
+  contacto = { nombre: "", email: '', mensaje: '' }
 }
