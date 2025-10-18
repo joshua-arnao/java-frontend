@@ -47,3 +47,23 @@ para usar ngModel se debe agregar la dependencia, importar `FormModule` o agrega
 
 ## Ejemplos de formularios usando ngModel
 
+> Entrada de texto
+
+```html
+<!-- <input placeholder="escribe tu nombre"> -->
+<input [(ngModel)]="nombre" placeholder="escribe tu nombre" />
+<p>Hola, {{ nombre  }}</p>
+
+<input [(ngModel)]="edad" placeholder="escribe tu edad" />
+<p>Hola, {{ edad  }}</p>
+
+<input type="checkbox" [(ngModel)]="suscrito" />
+<p *ngIf="suscrito">Gracias por suscribirte</p>
+```
+
+```ts
+// aqui estaria el componente
+nombre = '';
+edad = 20;
+suscrito = false;
+```
